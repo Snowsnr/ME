@@ -16,6 +16,7 @@ function Calcular(){
 
     var a = document.getElementById("Resultado1");
 
-    a.value=velocidad.toFixed(2);
+    var resultado=String(velocidad.toFixed(2));
+    a.value= resultado.concat(" m/s");
 
 }
